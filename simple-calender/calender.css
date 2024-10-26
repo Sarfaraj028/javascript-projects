@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    width: 100%;
+    background: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calender-container{
+    position: relative;
+    background: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 0  20px rgb(35, 35, 35);
+    border-radius: 10px;
+    /* padding: 1px; */
+}
+/* calender icon  */
+i{
+    position: absolute;
+    color: red;
+    font-size: 25px;
+    right: 5px;
+    top: 5px;
+}
+
+.calender-container .month-name{
+    background: darkblue;
+    border-radius: 10px 10px 0 0;
+    padding: 8px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+}
+.day-name{
+    margin-top: 10px;
+}
+
+.calender-container h2{
+    background: darkblue;
+    padding: 10px;
+}
+
+.calender-container .day-num{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.calender-container .year-name{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

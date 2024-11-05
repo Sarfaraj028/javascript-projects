@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.main .container{
+.container{
     background: royalblue;
     color: white;
     width: 400px;
@@ -25,14 +25,18 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    transform: translateX(300%);
     transition: .5s;
     transition-delay: .2s;
 }
-.main .container:nth-of-type(even){
-    transform: translateX(-300%);
+
+.container:nth-child(n+4) {
+    transform: translateX(200%);
 }
 
-.main .container.show{
+.container:nth-child(n+4):nth-child(even){
+    transform: translateX(-200%);
+}
+
+.container:nth-child(n).show{
     transform: translateX(0);
 }

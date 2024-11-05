@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.main{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .container{
+    background: royalblue;
+    color: white;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    transform: translateX(300%);
+    transition: .5s;
+    transition-delay: .2s;
+}
+.main .container:nth-of-type(even){
+    transform: translateX(-300%);
+}
+
+.main .container.show{
+    transform: translateX(0);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social media link hover effect</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <!-- google font cdn  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <i class='bx bxl-facebook' onmouseover="displayFB()" onmouseout="hideFB()">
+            <span class="fb"> Facebook <div class="tag"></div></span> 
+        </i>
+        
+        <i class='bx bxl-twitter'  onmouseover="displayTwi()" onmouseout="hideTwi()">
+            <span class="twi"> Twitter <div class="tag-twi"></div> </span> 
+        </i>
+        <i class='bx bxl-instagram' onmouseover="displayInsta()" onmouseout="hideInsta()">
+            <span class="insta"> Instagram <div class="tag-insta"></div> </span>
+        </i>
+        <i class='bx bxl-github' onmouseover="displayGit()" onmouseout="hideGit()">
+            <span class="git"> Github <div class="tag-git"></div> </span>
+        </i>
+        <i class='bx bxl-youtube' onmouseover="displayYt()" onmouseout="hideYt()">
+            <span class="yt"> Youtube <div class="tag-yt"></div> </span>
+        </i>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{  
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px black;
+    margin-right: 20px;
+}
+i:nth-child(1):hover{
+    background: royalblue;
+    color: white;
+}
+i:nth-child(2):hover{
+    background: rgb(0, 232, 232);
+    color: white;
+}
+i:nth-child(3):hover{
+    background: rgb(255, 64, 128);
+    color: white;
+}
+i:nth-child(4):hover{
+    background: black;
+    color: white;
+}
+i:nth-child(5):hover{
+    background: red;
+    color: white;
+}
+
+
+/* facebook */
+.fb,.twi,.insta,.git,.yt{
+    display: none;
+    background: royalblue;
+    color: white;
+    animation: shake .25s ease-out;
+}
+
+@keyframes shake {
+    0%{transform: translateY(3px);}
+    25%{transform: translateY(-3px);}
+    50%{transform: translateY(3px);} 
+    75%{transform: translateY(-3px);}
+    100%{transform: translateY(3px);}
+}
+
+.show{
+    display: block;
+    position: absolute;
+    margin-left: -57px;
+    margin-top: -95px;
+    border-radius: 13px;
+    padding: 8px 15px;
+}
+
+.tag{
+    position: absolute;
+    left: 45%;
+    width: 15px;
+    height: 15px;
+    background: royalblue;
+    transform: rotate(45deg);
+}
+
+/* twitter */
+.show-twi{
+    display: block;
+    position: absolute;
+    margin-left: -43px;
+    margin-top: -95px;
+    border-radius: 13px;
+    padding: 8px 15px;
+    background: rgb(0, 232, 232);
+}
+.tag-twi{
+    position: absolute;
+    left: 45%;
+    width: 15px;
+    height: 15px;
+    background: rgb(0, 232, 232);
+    transform: rotate(45deg);
+}
+
+/* Instagram */
+.show-insta{
+    display: block;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -95px;
+    border-radius: 13px;
+    padding: 8px 15px;
+    background: rgb(255, 64, 128);
+    color: white;
+}
+.tag-insta{
+    position: absolute;
+    left: 45%;
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 64, 128);
+    color: white;
+    transform: rotate(45deg);
+}
+
+/* Github */
+.show-git{
+    display: block;
+    position: absolute;
+    margin-left: -43px;
+    margin-top: -95px;
+    border-radius: 13px;
+    padding: 8px 15px;
+    background: black;
+    color: white;
+}
+.tag-git{
+    position: absolute;
+    left: 45%;
+    width: 15px;
+    height: 15px;
+    background: black;
+    color: white;
+    transform: rotate(45deg);
+}
+
+/* Youtube */
+.show-yt{
+    display: block;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -95px;
+    border-radius: 13px;
+    padding: 8px 15px;
+    background: red;
+    color: white;
+}
+.tag-yt{
+    position: absolute;
+    left: 45%;
+    width: 15px;
+    height: 15px;
+    background: red;
+    color: white;
+    transform: rotate(45deg);
+}
+.sho

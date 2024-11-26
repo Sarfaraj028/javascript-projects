@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin', sans-serif;
+    background: rgb(47, 47, 47);
+}
+
+.calculator{
+    width: 315px;
+    display: flex;
+    justify-content: center;
+    background: rgb(152, 152, 152);
+    border-radius: 10px;
+    box-shadow: -3px -3px 5px 1px black;
+    /* width: 395px;     */
+}
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 80px;
+    background: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    color: black;
+    font-size: 35px;
+    text-align: right;
+    box-shadow: -01px -1px 10px 5px rgb(77, 77, 77) inset;
+}
+input::placeholder{
+    color: black;
+}
+.div-btn{
+    margin-bottom: 10px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 5px;
+    color: black;
+    background: linear-gradient(rgb(237, 237, 237) 50%, 
+    rgb(208, 205, 205) 50%);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px rgb(30, 30, 30);
+}
+.operators{
+    color: white;
+}
+.orange{
+    background: linear-gradient(rgb(19, 19, 19) 50%, 
+    rgb(0, 0, 0) 50%);
+}

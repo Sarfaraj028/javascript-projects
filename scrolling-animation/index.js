@@ -5,7 +5,7 @@ window.addEventListener("scroll", () => {
 
     boxes.forEach(box => {
         const boxTop = box.getBoundingClientRect().top // this method get the element position and size of the elemeents here from the top
-
+        // there are also more properties like: left, right, bottom, x, y, height, width
         
         if(boxTop < windowInnerHeight){ // here when we scroll and the elennt comes from the bottom to top then the element position will decrease and 
                                         // a time it will rich less than innerHeight then then the event will occur and the element would be animated

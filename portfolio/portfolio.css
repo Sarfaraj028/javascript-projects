@@ -13,6 +13,9 @@ body {
     text-decoration: none;
     font-family: 'popins', sans-serif;
 }
+p{
+    line-height: 25px;
+}
 
 header {
     position: fixed;
@@ -57,23 +60,32 @@ section {
     padding: 1rem 7% 1rem;
 }
 
+ /* home section code is from here  */
 .home {
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
 .home-content {
-    margin-right: 6rem;}
+    margin-right: 6rem;
+}
 .home-content h3 {
     font-size: 2rem;
-    font-weight: 700;}
+    font-weight: 700;
+}
 .home-content h3:nth-of-type(2) {
-    margin-bottom: 1.5rem;}
+    margin-bottom: 1.5rem;
+}
+/* .home-content p{
+} */
 span {
-    color: aqua;}
+    color: aqua;
+}
 .home-content h1 {
     font-size: 3rem;
     font-weight: 700;
-    line-height: 1.1;}
+    line-height: 1.1;
+}
 
 .sarfaraj-img {
     width: 35vw;
@@ -154,6 +166,12 @@ span {
     text-align: center;
     font-size: 3.5rem;
 }
+.about-img{}
+.about-img img{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px ;
+}
 
 .about-content h2 {
     text-align: left;
@@ -167,6 +185,10 @@ span {
     margin: .3rem 0 3rem 0;
 }
 
+.about-content p a{
+    color: aqua;
+    text-decoration: underline;
+}
 
 /* Our Services Section */
 
